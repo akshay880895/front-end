@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Fitness Hub</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("gym_2_1_optimized.jpg")
+    }
+
+    .left {
+        position: absolute;
+        line-height: 32px;
+        font-size: 185px;
+        left: 34px;
+        top: 22px;
+        display: inline-block;
+        /* border: 2px solid green; */
+    }
+
+    .mid {
+        display: block;
+        width: 43%;
+        margin: 29px auto;
+        /* border: 2px solid grey; */
+    }
+
+    .right {
+        position: absolute;
+        right: 25px;
+        top: 48px;
+        display: inline-block;
+        /* border: 2px solid white; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 13px;
+        font-size: 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: aqua;
+    }
+
+    .left img {
+        width: 114px;
+    }
+
+    .left div {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Baloo 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 0px 11px;
+        font-size: 19px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #45c1c1;
+    }
+
+    .container {
+        font-family: 'Baloo 2', cursive;
+        margin: 109px 94px;
+        padding: 90px;
+        width: 469px;
+        border-radius: 16px;
+        right: -176px;
+        top: 48px;
+        position: absolute;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 343px;
+        padding: 4px;
+        border: 2px solid rgb(71, 145, 145);
+        border-radius: 19px;
+        margin: 5px auto;
+        font-size: 18px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 168px;
+        margin: 7px auto;
+        font-size: 20px;
+    }
+
+    .container button :hover {
+        background-color: aqua;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym logo.jfif" alt="">
+            <div>Sun Fitness Hub</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <bottom class="btn">Call us Now</bottom>
+            <bottom class="btn">Email us</bottom>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym in Mumbai</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn2">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
